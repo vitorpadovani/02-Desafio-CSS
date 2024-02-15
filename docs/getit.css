@@ -27,6 +27,53 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.appbar{
+  background-color: #f7d736;
+  padding: 7px;
+  display: flex;
+  align-items: center;  
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  transition: background-color 0.3s;
+
+}
+
+.logo{
+  width: 100px;
+  height: 70px;
+  display: block;
+  margin-left: .5rem;
+}
+
+.subtitle{
+  margin-left: 1rem;
+}
+
+.form-card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  transition: background-color 0.3s;
+}
+
+.btn{
+  padding: 10px 15px;
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  background-color: #f7d736;
+  transition: background-color 0.3s;
+
+}
+
+
+
+
 /* Você pode usar o CSS comentado abaixo, se ajudar */
 /* Fonte: https://codepen.io/CrisWoler/pen/ogXBLj */
 /* .btn {
