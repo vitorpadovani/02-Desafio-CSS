@@ -39,7 +39,7 @@ body {
 
 .logo{
   width: 100px;
-  height: 70px;
+  height: 60px;
   display: block;
   margin-left: .5rem;
 }
@@ -48,19 +48,49 @@ body {
   margin-left: 1rem;
 }
 
+.container{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  margin-top: 1rem;
+}
+
 .form-card{
   display: flex;
+  position: relative;
   flex-direction: column;
-  text-align: center;
-  padding: 1rem;
-  margin: 1rem;
-  border-width: 0;
-  outline: none;
-  border-radius: 2px;
+  justify-content: center;
+  align-self: center;
+  width: 30rem;
+  height: 8rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
   transition: background-color 0.3s;
+  border-radius: .3rem;
+}
+
+.form-card-title{
+  border: none;
+  margin-bottom: .5rem;
+  margin-left: 2%;
+  font-size: 1.2rem;
+  letter-spacing: -.7px;
+  color: #2c2c2c; 
+
+}
+
+.autoresize{
+  border: none;
+  margin-left: 2%;
+  font-size: .8rem;
+  letter-spacing: -.7px;
+  margin-bottom: -.1rem;
+  color: #2c2c2c;
 }
 
 .btn{
+  display: block;
   padding: 10px 15px;
   border-width: 0;
   outline: none;
@@ -68,9 +98,58 @@ body {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   background-color: #f7d736;
   transition: background-color 0.3s;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  flex-wrap: wrap;
 
 }
 
+.card{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  width: 13rem;
+  height: 8rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  transition: background-color 0.3s;
+  border-radius: .3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+}
+
+
+
+.card-title{
+  font-family: 'Permanent Marker', cursive;
+  position: relative;
+  margin-bottom: .7rem;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 1.2rem;
+  letter-spacing: -.7px;
+
+}
+
+.card-content{
+  font-family: 'Permanent Marker', cursive;
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 1rem;
+  color: #4c4c4c;
+}
 
 
 
