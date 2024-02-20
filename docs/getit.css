@@ -65,7 +65,7 @@ body {
   height: 8rem;
   margin-bottom: 2rem;
   margin-top: 1rem;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   transition: background-color 0.3s;
   border-radius: .3rem;
 }
@@ -75,7 +75,8 @@ body {
   margin-bottom: .5rem;
   margin-left: 2%;
   font-size: 1.2rem;
-  letter-spacing: -.7px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
   color: #2c2c2c; 
 
 }
@@ -84,9 +85,13 @@ body {
   border: none;
   margin-left: 2%;
   font-size: .8rem;
-  letter-spacing: -.7px;
   margin-bottom: -.1rem;
+  font-family: 'Roboto', sans-serif;
   color: #2c2c2c;
+}
+
+textarea{
+  resize: none;
 }
 
 .btn{
@@ -122,7 +127,7 @@ body {
   height: 8rem;
   margin-bottom: 2rem;
   margin-top: 1rem;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   transition: background-color 0.3s;
   border-radius: .3rem;
   margin-left: 1rem;
@@ -130,6 +135,50 @@ body {
 
 }
 
+.card-color-1 {
+  background-color: #ead3a7;
+}
+
+.card-color-2 {
+  background-color: #9de0f5;
+}
+
+.card-color-3 {
+  background-color: #ef89ba;
+}
+
+.card-color-4 {
+  background-color: #fae890;
+}
+
+.card-color-5 {
+  background-color: #abe9c1;
+}
+
+.card-transform-1{
+  transform: rotate(10deg);
+}
+.card-transform-2{
+  transform: rotate(5deg);
+}
+.card-transform-3{
+  transform: rotate(-5deg);
+}
+.card-transform-4{
+  transform: rotate(-10deg);
+}
+.card-transform-5{
+  transform: rotate(3deg);
+}
+.card-transform-6{
+  transform: rotate(-3deg);
+}
+.card-transform-7{
+  transform: rotate(4deg);
+}
+.card-transform-8{
+  transform: rotate(-4deg);
+}
 
 
 .card-title{
