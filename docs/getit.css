@@ -110,8 +110,7 @@ textarea{
 .card-container{
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
   margin-top: 1rem;
   flex-wrap: wrap;
 
@@ -119,10 +118,7 @@ textarea{
 
 .card{
   display: flex;
-  position: relative;
   flex-direction: column;
-  justify-content: center;
-  align-self: center;
   width: 13rem;
   height: 8rem;
   margin-bottom: 2rem;
@@ -130,9 +126,8 @@ textarea{
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   transition: background-color 0.3s;
   border-radius: .3rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-
+  margin-left: .4rem;
+  margin-right: .4rem;
 }
 
 .card-color-1 {
@@ -155,41 +150,49 @@ textarea{
   background-color: #abe9c1;
 }
 
-.card-transform-1{
-  transform: rotate(10deg);
+.card-rotation-1{
+  transform: rotate(2.5deg);
 }
-.card-transform-2{
-  transform: rotate(5deg);
+.card-rotation-2{
+  transform: rotate(2deg);
 }
-.card-transform-3{
-  transform: rotate(-5deg);
+.card-rotation-3{
+  transform: rotate(-2deg);
 }
-.card-transform-4{
-  transform: rotate(-10deg);
+.card-rotation-4{
+  transform: rotate(-2.5deg);
 }
-.card-transform-5{
+.card-rotation-5{
   transform: rotate(3deg);
 }
-.card-transform-6{
+.card-rotation-6{
   transform: rotate(-3deg);
 }
-.card-transform-7{
-  transform: rotate(4deg);
+.card-rotation-7{
+  transform: rotate(2.25deg);
 }
-.card-transform-8{
-  transform: rotate(-4deg);
+.card-rotation-8{
+  transform: rotate(-2.25deg);
 }
-
+.card-rotation-9{
+  transform: rotate(-2.8deg);
+}
+.card-rotation-10{
+  transform: rotate(2.8deg);
+}
+.card-rotation-11{
+  transform: rotate(3.5deg);
+}
 
 .card-title{
   font-family: 'Permanent Marker', cursive;
-  position: relative;
-  margin-bottom: .7rem;
   margin-left: 2%;
   margin-right: 2%;
   font-size: 1.2rem;
-  letter-spacing: -.7px;
-
+  font-weight: bold;
+  margin-top: .5rem;
+  margin-bottom: .7rem;
+  align-self: flex-start;
 }
 
 .card-content{
@@ -198,6 +201,7 @@ textarea{
   margin-right: 2%;
   font-size: 1rem;
   color: #4c4c4c;
+  align-self: center;
 }
 
 
